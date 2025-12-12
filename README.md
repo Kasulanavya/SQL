@@ -1,5 +1,9 @@
 # SQL
 #sql csv file creating commands
+SELECT * FROM employees 
+INTO OUTFILE 'C:/Users/kasul/OneDrive/Desktop/SQL practise/SQL/exports/departments.csv'
+FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
+
 SELECT * FROM departments 
 INTO OUTFILE 'C:/Users/kasul/OneDrive/Desktop/SQL practise/SQL/exports/departments.csv'
 FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n';
